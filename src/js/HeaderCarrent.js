@@ -27,9 +27,9 @@ function HeaderCarrent() {
                                             <b className="navbar-text p-3"> VMMP s.r.o.</b>
                                         </a>
                                         <ul className="nav justify-content-end">
-                                            <li className="nav-item"><a className="nav-link" href="#">Home</a></li>
-                                            <li className="nav-item"><a href="#carlist" className="nav-link">Auto</a></li>
-                                            <li className="nav-item"><a href="#contacts" className="nav-link">Contacts</a></li>
+                                            <li className="nav-item"><a className="nav-link" href="#"></a></li>
+                                            <li className="nav-item"><a href="#carlist" className="nav-link">Auta</a></li>
+                                            <li className="nav-item"><a href="#contacts" className="nav-link">Kontakty</a></li>
                                         </ul>
                                     </div>
                                 </nav>
