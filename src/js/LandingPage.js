@@ -3,21 +3,23 @@ import React from 'react';
 const LandingPage = () => {
     return (
         <div className="bg-light bg-gradient">
-            <div className="testing slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image bg_image--16">
+            <div
+                className="testing slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image bg_image--16">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="inner text-center">
-                                <h1 className="MainTitle WhiteText">Car rental in Prague</h1>
-                                <p className="mt-5 WhiteText">We rent you cars!</p>
-                                <a className="btn btn-outline-info btn-lg" href="#contacts" target="_blank">Contact</a>
+                                <h1 className="MainTitle WhiteText">Pronajem aut v Praze</h1>
+                                <p className="mt-5 WhiteText">VMMP - je autopůjčovna Praha. Nabízíme zcela nové vozy za nejlepší ceny pro krátkodobé i dlouhodobé pronájmy. Půjčení vozu nebylo nikdy předtím jednodušší!</p>
+                                <a className="btn btn-outline-info btn-lg" href="#contacts" target="_blank">Kontaktovat nás</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div id="carlist" className="container overflow-hidden text-center justify-content-center align-items-center">
+            <div id="carlist"
+                 className="container overflow-hidden text-center justify-content-center align-items-center">
                 <h1 className="display-1">Auta</h1>
                 <div className="row align-items-center justify-content-center">
                     <div className="col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
@@ -122,9 +124,9 @@ const LandingPage = () => {
                     </div>
                 </div>
             </div>
-
+            <hr className="border border-3 border-dark-subtle"></hr>
             <div id="contacts">
-                <h1 className="display-2">Contact Us</h1>
+                <h1 className="display-2">Kontakty</h1>
                 <table className="table table-light table-borderless">
                     <tbody>
                     <tr>

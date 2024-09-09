@@ -10,7 +10,7 @@ const FooterTwo = () => {
                         <div className="inner">
                             <div className="logo text-center text-sm-left mb_sm--20">
                                 <a href="#">
-                                    <img src="../logo.png" alt="Logo carnice" className={'Header_Logo'}/>
+                                    <img src="../logo192.png" alt="Logo carnice" className={'Header_Logo'}/>
                                 </a>
                             </div>
                         </div>

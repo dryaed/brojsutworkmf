@@ -22,13 +22,9 @@ function HeaderCarrent() {
                             <div className="header-right justify-content-end">
                                 <nav className="navbar d-lg-block">
                                     <div className="container-fluid">
-                                        <a className="navbar-brand d-flex align-content-start" href="#">
-                                            <img src="../logo.png" alt="company" width="128" height="128" className="d-inline-block align-text-bottom" />
-                                            <div className="">
-                                            <b>VMMP s.r.o.</b>
-                                            <br/>
-                                            Pronajem aut
-                                            </div>
+                                        <a className="navbar-brand d-flex align-content-start align-content-center" href="#">
+                                            <img src="../logo192.png" alt="company" width="64" height="64" className="d-inline-block align-text-bottom" />
+                                            <b className="navbar-text p-3"> VMMP s.r.o.</b>
                                         </a>
                                         <ul className="nav justify-content-end">
                                             <li className="nav-item"><a className="nav-link" href="#">Home</a></li>
