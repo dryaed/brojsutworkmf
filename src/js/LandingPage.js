@@ -11,7 +11,7 @@ const LandingPage = () => {
                             <div className="inner text-center">
                                 <h1 className="MainTitle WhiteText">Pronajem aut v Praze</h1>
                                 <p className="mt-5 WhiteText">VMMP - je autopůjčovna Praha. Nabízíme zcela nové vozy za nejlepší ceny pro krátkodobé i dlouhodobé pronájmy. Půjčení vozu nebylo nikdy předtím jednodušší!</p>
-                                <a className="btn btn-outline-info btn-lg" href="#contacts" target="_blank">Kontaktovat nás</a>
+                                <a className="btn btn-outline-info btn-lg" href="#contacts">Kontaktovat nás</a>
                             </div>
                         </div>
                     </div>
@@ -26,9 +26,9 @@ const LandingPage = () => {
                         <div className="card carcard">
                             <img src={"../c4.png"} className="card-img-top" alt="carcard"/>
                             <div className="card-body">
-                                <h5 className="card-title">Standard</h5>
-                                <p className="card-text">Citroen C4<br></br> 50 €/den</p>
-                                <a href="#" className="btn btn-primary">Order</a>
+                                <h5 className="card-title">BMW 520d (2019)</h5>
+                                <p className="card-text">75 €/den</p>
+                                <a href="#" className="btn btn-primary">Pronajem</a>
                             </div>
                         </div>
                     </div>
@@ -36,9 +36,9 @@ const LandingPage = () => {
                         <div className="card carcard">
                             <img src={"../c4.png"} className="card-img-top" alt="carcard"/>
                             <div className="card-body">
-                                <h5 className="card-title">Standard</h5>
-                                <p className="card-text">Citroen C4<br></br> 50 €/den</p>
-                                <a href="#" className="btn btn-primary">Order</a>
+                                <h5 className="card-title">BMW 520d (2023)</h5>
+                                <p className="card-text">110 €/den</p>
+                                <a href="#" className="btn btn-primary">Pronajem</a>
                             </div>
                         </div>
                     </div>
@@ -46,9 +46,9 @@ const LandingPage = () => {
                         <div className="card carcard">
                             <img src={"../c4.png"} className="card-img-top" alt="carcard"/>
                             <div className="card-body">
-                                <h5 className="card-title">Standard</h5>
-                                <p className="card-text">Citroen C4<br></br> 50 €/den</p>
-                                <a href="#" className="btn btn-primary">Order</a>
+                                <h5 className="card-title">BMW 318d (2018)</h5>
+                                <p className="card-text">89 €/den</p>
+                                <a href="#" className="btn btn-primary">Pronajem</a>
                             </div>
                         </div>
                     </div>
@@ -56,9 +56,9 @@ const LandingPage = () => {
                         <div className="card carcard">
                             <img src={"../c4.png"} className="card-img-top" alt="carcard"/>
                             <div className="card-body">
-                                <h5 className="card-title">Standard</h5>
-                                <p className="card-text">Citroen C4<br></br> 50 €/den</p>
-                                <a href="#" className="btn btn-primary">Order</a>
+                                <h5 className="card-title">BMW x5 45e</h5>
+                                <p className="card-text">75 €/den</p>
+                                <a href="#" className="btn btn-primary">Pronajem</a>
                             </div>
                         </div>
                     </div>
@@ -66,9 +66,9 @@ const LandingPage = () => {
                         <div className="card carcard">
                             <img src={"../c4.png"} className="card-img-top" alt="carcard"/>
                             <div className="card-body">
-                                <h5 className="card-title">Standard</h5>
-                                <p className="card-text">Citroen C4<br></br> 50 €/den</p>
-                                <a href="#" className="btn btn-primary">Order</a>
+                                <h5 className="card-title">BMW 40d (2020)</h5>
+                                <p className="card-text">69 €/den</p>
+                                <a href="#" className="btn btn-primary">Pronajem</a>
                             </div>
                         </div>
                     </div>
@@ -76,9 +76,9 @@ const LandingPage = () => {
                         <div className="card carcard">
                             <img src={"../c4.png"} className="card-img-top" alt="carcard"/>
                             <div className="card-body">
-                                <h5 className="card-title">Standard</h5>
-                                <p className="card-text">Citroen C4<br></br> 50 €/den</p>
-                                <a href="#" className="btn btn-primary">Order</a>
+                                <h5 className="card-title">BMW 30d (2020)</h5>
+                                <p className="card-text">39 €/den</p>
+                                <a href="#" className="btn btn-primary">Pronajem</a>
                             </div>
                         </div>
                     </div>
@@ -86,9 +86,9 @@ const LandingPage = () => {
                         <div className="card carcard">
                             <img src={"../c4.png"} className="card-img-top" alt="carcard"/>
                             <div className="card-body">
-                                <h5 className="card-title">Standard</h5>
-                                <p className="card-text">Citroen C4<br></br> 50 €/den</p>
-                                <a href="#" className="btn btn-primary">Order</a>
+                                <h5 className="card-title">Lexus NX300 (2019)</h5>
+                                <p className="card-text">42 €/den</p>
+                                <a href="#" className="btn btn-primary">Pronajem</a>
                             </div>
                         </div>
                     </div>
@@ -96,9 +96,9 @@ const LandingPage = () => {
                         <div className="card carcard">
                             <img src={"../c4.png"} className="card-img-top" alt="carcard"/>
                             <div className="card-body">
-                                <h5 className="card-title">Standard</h5>
-                                <p className="card-text">Citroen C4<br></br> 50 €/den</p>
-                                <a href="#" className="btn btn-primary">Order</a>
+                                <h5 className="card-title">Mini Cooper (2020)</h5>
+                                <p className="card-text">67 €/den</p>
+                                <a href="#" className="btn btn-primary">Pronajem</a>
                             </div>
                         </div>
                     </div>
@@ -106,9 +106,9 @@ const LandingPage = () => {
                         <div className="card carcard">
                             <img src={"../c4.png"} className="card-img-top" alt="carcard"/>
                             <div className="card-body">
-                                <h5 className="card-title">Standard</h5>
-                                <p className="card-text">Citroen C4<br></br> 50 €/den</p>
-                                <a href="#" className="btn btn-primary">Order</a>
+                                <h5 className="card-title">Range Rover Autobiography (2023)</h5>
+                                <p className="card-text">269 €/den</p>
+                                <a href="#" className="btn btn-primary">Pronajem</a>
                             </div>
                         </div>
                     </div>
@@ -116,9 +116,9 @@ const LandingPage = () => {
                         <div className="card carcard">
                             <img src={"../porsh.png"} className="card-img-top" alt="carcard"/>
                             <div className="card-body">
-                                <h5 className="card-title">Premium</h5>
-                                <p className="card-text">Porshe 718<br></br> 300 €/den</p>
-                                <a href="#" className="btn btn-primary">Order</a>
+                                <h5 className="card-title">Porsche Cayman (2019)</h5>
+                                <p className="card-text">113 €/den</p>
+                                <a href="#" className="btn btn-primary">Pronajem</a>
                             </div>
                         </div>
                     </div>
