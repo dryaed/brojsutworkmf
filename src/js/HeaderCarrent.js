@@ -14,7 +14,7 @@ function HeaderCarrent() {
                 <div className="container">
                     <div className="row align-items-center">
                                 <nav className="navbar d-lg-block navbar-expand-lg">
-                                    <div className="container-fluid">
+                                    <div className="container-fluid align-items-center justify-content-center">
                                             <a className="navbar-brand d-flex align-content-start"
                                                href="#">
                                                 <img src="../logo192.png" alt="company" width="64" height="64"
