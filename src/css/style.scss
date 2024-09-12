@@ -25,6 +25,9 @@ $main-color: #000000;
   background-image: url("../../public/bg-image-16.png");
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
+  background-position: 0;
+  height: 950px;
+  position: relative;
 }
 
 .carcard {
@@ -626,6 +629,7 @@ Personal Portfolio
 --------------------------*/
 .personal-portfolio-slider {
   position: relative;
+  /*
   @media #{$sm-layout} {
     &::before {
       position: absolute;
@@ -656,7 +660,7 @@ Personal Portfolio
       opacity: 0.7;
     }
   }
-
+*/
 }
 .slide {
   &.personal-portfolio-slider ,

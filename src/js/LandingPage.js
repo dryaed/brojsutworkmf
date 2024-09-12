@@ -4,7 +4,7 @@ const LandingPage = () => {
     return (
         <div className="bg-light bg-gradient">
             <div
-                className="testing slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image bg_image--16">
+                className="testing slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
