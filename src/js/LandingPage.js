@@ -21,108 +21,89 @@ const LandingPage = () => {
             <div id="carlist"
                  className="container overflow-hidden text-center justify-content-center align-items-center">
                 <h1 className="display-1">Auta</h1>
-                <div className="row align-items-center justify-content-center">
-                    <div className="col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
-                        <div className="card carcard">
-                            <img src={"../c4.png"} className="card-img-top" alt="carcard"/>
-                            <div className="card-body">
-                                <h5 className="card-title">BMW 520d (2019)</h5>
-                                <p className="card-text">75 €/den</p>
-                                <a href="#" className="btn btn-primary">Pronajem</a>
-                            </div>
+                <div className="row justify-content-center align-items-center">
+                    <div className="card carcard col-sm-6 mb-3 mb-sm-0">
+                        <img src={"../bmw520d2019.png"} className="card-img-top" alt="carcard"/>
+                        <div className="card-body">
+                            <h5 className="card-title">BMW 520d<br></br>(2019)</h5>
+                            <p className="card-text">75 €/den</p>
+                            <a href="#" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
-                        <div className="card carcard">
-                            <img src={"../c4.png"} className="card-img-top" alt="carcard"/>
-                            <div className="card-body">
-                                <h5 className="card-title">BMW 520d (2023)</h5>
-                                <p className="card-text">110 €/den</p>
-                                <a href="#" className="btn btn-primary">Pronajem</a>
-                            </div>
+                    <div className="card carcard col-sm-6 mb-3 mb-sm-0">
+                        <img src={"../bmw520d2023.png"} className="card-img-top" alt="carcard"/>
+                        <div className="card-body">
+                            <h5 className="card-title">BMW 520d<br></br>(2023)</h5>
+                            <p className="card-text">110 €/den</p>
+                            <a href="#" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
-                        <div className="card carcard">
-                            <img src={"../c4.png"} className="card-img-top" alt="carcard"/>
-                            <div className="card-body">
-                                <h5 className="card-title">BMW 318d (2018)</h5>
-                                <p className="card-text">89 €/den</p>
-                                <a href="#" className="btn btn-primary">Pronajem</a>
-                            </div>
+                    <div className="card carcard col-sm-6 mb-3 mb-sm-0">
+                        <img src={"../bmw318d2018.png"} className="card-img-top" alt="carcard"/>
+                        <div className="card-body">
+                            <h5 className="card-title">BMW 318d<br></br>(2018)</h5>
+                            <p className="card-text">89 €/den</p>
+                            <a href="#" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
-                        <div className="card carcard">
-                            <img src={"../c4.png"} className="card-img-top" alt="carcard"/>
-                            <div className="card-body">
-                                <h5 className="card-title">BMW x5 45e</h5>
-                                <p className="card-text">75 €/den</p>
-                                <a href="#" className="btn btn-primary">Pronajem</a>
-                            </div>
+                    <div className="card carcard col-sm-6 mb-3 mb-sm-0">
+                        <img src={"../bmwx545e.png"} className="card-img-top" alt="carcard"/>
+                        <div className="card-body">
+                            <h5 className="card-title">BMW x5 45e<br></br></h5>
+                            <p className="card-text">75 €/den</p>
+                            <a href="#" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
-                        <div className="card carcard">
-                            <img src={"../c4.png"} className="card-img-top" alt="carcard"/>
-                            <div className="card-body">
-                                <h5 className="card-title">BMW 40d (2020)</h5>
-                                <p className="card-text">69 €/den</p>
-                                <a href="#" className="btn btn-primary">Pronajem</a>
-                            </div>
+                    <div className="card carcard col-sm-6 mb-3 mb-sm-0">
+                        <img src={"../bmw40d2020.png"} className="card-img-top" alt="carcard"/>
+                        <div className="card-body">
+                            <h5 className="card-title">BMW 40d<br></br>(2020)</h5>
+                            <p className="card-text">69 €/den</p>
+                            <a href="#" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
-                        <div className="card carcard">
-                            <img src={"../c4.png"} className="card-img-top" alt="carcard"/>
-                            <div className="card-body">
-                                <h5 className="card-title">BMW 30d (2020)</h5>
-                                <p className="card-text">39 €/den</p>
-                                <a href="#" className="btn btn-primary">Pronajem</a>
-                            </div>
+                    <div className="card carcard col-sm-6 mb-3 mb-sm-0">
+                        <img src={"../bmw30d2020.png"} className="card-img-top" alt="carcard"/>
+                        <div className="card-body">
+                            <h5 className="card-title">BMW 30d<br></br>(2020)</h5>
+                            <p className="card-text">39 €/den</p>
+                            <a href="#" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
-                        <div className="card carcard">
-                            <img src={"../c4.png"} className="card-img-top" alt="carcard"/>
-                            <div className="card-body">
-                                <h5 className="card-title">Lexus NX300 (2019)</h5>
-                                <p className="card-text">42 €/den</p>
-                                <a href="#" className="btn btn-primary">Pronajem</a>
-                            </div>
+                    <div className="card carcard col-sm-6 mb-3 mb-sm-0">
+                        <img src={"../lexusnx3002019.png"} className="card-img-top" alt="carcard"/>
+                        <div className="card-body">
+                            <h5 className="card-title">Lexus NX300<br></br>(2019)</h5>
+                            <p className="card-text">42 €/den</p>
+                            <a href="#" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
-                        <div className="card carcard">
-                            <img src={"../c4.png"} className="card-img-top" alt="carcard"/>
-                            <div className="card-body">
-                                <h5 className="card-title">Mini Cooper (2020)</h5>
-                                <p className="card-text">67 €/den</p>
-                                <a href="#" className="btn btn-primary">Pronajem</a>
-                            </div>
+                    <div className="card carcard col-sm-6 mb-3 mb-sm-0">
+                        <img src={"../minicooper2020.png"} className="card-img-top" alt="carcard"/>
+                        <div className="card-body">
+                            <h5 className="card-title">Mini Cooper<br></br>(2020)</h5>
+                            <p className="card-text">67 €/den</p>
+                            <a href="#" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
-                        <div className="card carcard">
-                            <img src={"../c4.png"} className="card-img-top" alt="carcard"/>
-                            <div className="card-body">
-                                <h5 className="card-title">Range Rover Autobiography (2023)</h5>
-                                <p className="card-text">269 €/den</p>
-                                <a href="#" className="btn btn-primary">Pronajem</a>
-                            </div>
+                    <div className="card carcard col-sm-6 mb-3 mb-sm-0">
+                        <img src={"../rangeroverautobiography2023.png"} className="card-img-top" alt="carcard"/>
+                        <div className="card-body">
+                            <h5 className="card-title">Range Rover Autobiography<br></br>(2023)</h5>
+                            <p className="card-text">269 €/den</p>
+                            <a href="#" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 d-flex justify-content-center align-items-center">
-                        <div className="card carcard">
-                            <img src={"../porsh.png"} className="card-img-top" alt="carcard"/>
-                            <div className="card-body">
-                                <h5 className="card-title">Porsche Cayman (2019)</h5>
-                                <p className="card-text">113 €/den</p>
-                                <a href="#" className="btn btn-primary">Pronajem</a>
-                            </div>
+                    <div className="card carcard col-sm-6 mb-3 mb-sm-0">
+                        <img src={"../porschecayman2019.png"} className="card-img-top" alt="carcard"/>
+                        <div className="card-body">
+                            <h5 className="card-title">Porsche Cayman<br></br>(2019)</h5>
+                            <p className="card-text">113 €/den</p>
+                            <a href="#" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
                 </div>
+
             </div>
             <hr className="border border-3 border-dark-subtle"></hr>
             <div id="contacts">
