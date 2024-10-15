@@ -27,7 +27,7 @@ const LandingPage = () => {
                         <div className="card-body">
                             <h5 className="card-title">BMW 520d<br></br>(2019)</h5>
                             <p className="card-text">75 €/den</p>
-                            <a href="#" className="btn btn-primary">Pronajem</a>
+                            <a href="#contacts" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
                     <div className="card carcard col-sm-6 mb-3 mb-sm-0">
@@ -35,7 +35,7 @@ const LandingPage = () => {
                         <div className="card-body">
                             <h5 className="card-title">BMW 520d<br></br>(2023)</h5>
                             <p className="card-text">110 €/den</p>
-                            <a href="#" className="btn btn-primary">Pronajem</a>
+                            <a href="#contacts" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
                     <div className="card carcard col-sm-6 mb-3 mb-sm-0">
@@ -43,7 +43,7 @@ const LandingPage = () => {
                         <div className="card-body">
                             <h5 className="card-title">BMW 318d<br></br>(2018)</h5>
                             <p className="card-text">89 €/den</p>
-                            <a href="#" className="btn btn-primary">Pronajem</a>
+                            <a href="#contacts" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
                     <div className="card carcard col-sm-6 mb-3 mb-sm-0">
@@ -51,7 +51,7 @@ const LandingPage = () => {
                         <div className="card-body">
                             <h5 className="card-title">BMW x5 45e<br></br></h5>
                             <p className="card-text">75 €/den</p>
-                            <a href="#" className="btn btn-primary">Pronajem</a>
+                            <a href="#contacts" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
                     <div className="card carcard col-sm-6 mb-3 mb-sm-0">
@@ -59,7 +59,7 @@ const LandingPage = () => {
                         <div className="card-body">
                             <h5 className="card-title">BMW 40d<br></br>(2020)</h5>
                             <p className="card-text">69 €/den</p>
-                            <a href="#" className="btn btn-primary">Pronajem</a>
+                            <a href="#contacts" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
                     <div className="card carcard col-sm-6 mb-3 mb-sm-0">
@@ -67,7 +67,7 @@ const LandingPage = () => {
                         <div className="card-body">
                             <h5 className="card-title">BMW 30d<br></br>(2020)</h5>
                             <p className="card-text">39 €/den</p>
-                            <a href="#" className="btn btn-primary">Pronajem</a>
+                            <a href="#contacts" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
                     <div className="card carcard col-sm-6 mb-3 mb-sm-0">
@@ -75,7 +75,7 @@ const LandingPage = () => {
                         <div className="card-body">
                             <h5 className="card-title">Lexus NX300<br></br>(2019)</h5>
                             <p className="card-text">42 €/den</p>
-                            <a href="#" className="btn btn-primary">Pronajem</a>
+                            <a href="#contacts" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
                     <div className="card carcard col-sm-6 mb-3 mb-sm-0">
@@ -83,7 +83,7 @@ const LandingPage = () => {
                         <div className="card-body">
                             <h5 className="card-title">Mini Cooper<br></br>(2020)</h5>
                             <p className="card-text">67 €/den</p>
-                            <a href="#" className="btn btn-primary">Pronajem</a>
+                            <a href="#contacts" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
                     <div className="card carcard col-sm-6 mb-3 mb-sm-0">
@@ -91,7 +91,7 @@ const LandingPage = () => {
                         <div className="card-body">
                             <h5 className="card-title">Range Rover Autobiography<br></br>(2023)</h5>
                             <p className="card-text">269 €/den</p>
-                            <a href="#" className="btn btn-primary">Pronajem</a>
+                            <a href="#contacts" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
                     <div className="card carcard col-sm-6 mb-3 mb-sm-0">
@@ -99,7 +99,7 @@ const LandingPage = () => {
                         <div className="card-body">
                             <h5 className="card-title">Porsche Cayman<br></br>(2019)</h5>
                             <p className="card-text">113 €/den</p>
-                            <a href="#" className="btn btn-primary">Pronajem</a>
+                            <a href="#contacts" className="btn btn-primary">Pronajem</a>
                         </div>
                     </div>
                 </div>
@@ -108,22 +108,33 @@ const LandingPage = () => {
             <hr className="border border-3 border-dark-subtle"></hr>
             <div id="contacts">
                 <h1 className="display-2">Kontakty</h1>
+                <div className="table-responsive">
                 <table className="table table-light table-borderless">
                     <tbody>
                     <tr>
-                        <th className="text-end">Adresa:</th>
+                        <th className="text-end"><i className="bi bi-house"></i></th>
+                        <td className="text-start col-1">Adresa:</td>
                         <td className="text-start">Frýdlantská 1312/19, Kobylisy, 182 00 Praha</td>
                     </tr>
                     <tr>
-                        <th className="text-end">Telefon:</th>
-                        <td className="text-start">+420 721 348 147</td>
+                        <th className="text-end"><i className="bi bi-telegram"></i></th>
+                        <td className="text-start">Telegram:</td>
+                        <td className="text-start"><a href="https://t.me/+420721348147">+420 721 348 147</a></td>
                     </tr>
                     <tr>
-                        <th className="text-end">Email:</th>
+                        <th className="text-end"><i className="bi bi-whatsapp"></i></th>
+                        <td className="text-start">WhatsApp:</td>
+                        <td className="text-start"><a href="https://api.whatsapp.com/send?phone=420721348147">+420 721
+                            348 147</a></td>
+                    </tr>
+                    <tr>
+                        <th className="text-end"><i className="bi bi-envelope"></i></th>
+                        <td className="text-start">Email:</td>
                         <td className="text-start">vmmp.sro.cze@gmail.com</td>
                     </tr>
                     </tbody>
                 </table>
+                </div>
             </div>
         </div>
 
